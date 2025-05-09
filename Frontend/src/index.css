@@ -1,0 +1,154 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-dark: #121212;
+  --bg-light: #1e1e1e;
+  --accent: #007acc;
+  --accent-hover: #005f99;
+  --text-main: #0ac703;
+  --text-heading: #64ffda;
+  --font-code: 'Fira Code', monospace;
+}
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left Side (Code Editor) */
+.left {
+  flex: 1;
+  background: var(--bg-light);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-right: 1px solid #000000;
+}
+
+.code {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid #000000;
+  border-radius: 6px;
+}
+
+/* Review Button */
+.review {
+  margin-top: 1rem;
+  background: #1e1e1e;
+  color: rgb(8, 8, 8);
+  padding: 0.75rem;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+.review:hover {
+  background: var(--accent-hover);
+}
+
+/* Right Side (Review Output) */
+.right {
+  flex: 1;
+  background-color: #1d1c1c;
+  background: #121212;
+  padding: 2rem;
+  overflow-y: auto;
+  font-size: 1.3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+
+/* Animation */
+.review-output {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+html,
+body,
+#root
+{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left, main .right {
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.8rem;
+}
+
+main .left{
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.left .code, 
+.code pre, 
+.code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  border-radius: 0.7rem;
+  background-color: black;
+}
+
+main .left .review{
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: rgb(21, 21, 21);
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  
+  
+}
+

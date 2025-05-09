@@ -1,0 +1,61 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+html,
+body,
+#root
+{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+main .left, main .right {
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 0.8rem;
+}
+
+main .left{
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+.left .code, 
+.code pre, 
+.code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  border-radius: 0.7rem;
+  background-color: rgb(0, 0, 0);
+}
+
+main .left .review{
+  position: absolute;
+  bottom: 2.1rem;
+  right: 2.3rem;
+  background-color: azure;
+  color: black;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  font-weight: 620;
+  cursor: pointer;
+  
+  
+}
+
+main .right{
+  background-color: rgb(30, 30, 30);
+}
