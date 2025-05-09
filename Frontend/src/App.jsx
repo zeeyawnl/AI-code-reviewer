@@ -19,7 +19,7 @@ function App() {
 
   async function reviewCode() {
     try {
-      const response = await axios.post(`http://localhost:3000/ai/get-response`, { prompt: code });
+      const response = await axios.post(`https://your-backend-name.onrender.com/ai/get-response`, { prompt: code });
       console.log("✅ Response:", response.data);
       setReview(response.data);
     } catch (err) {
