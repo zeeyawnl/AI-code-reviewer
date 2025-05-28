@@ -1,15 +1,101 @@
-# AI Code Reviewer
+# 🤖 AI-Powered Code Reviewer
 
-This is an AI-powered code reviewer project that allows users to review code snippets using a Google Gemini model.
+An intelligent full-stack application that reviews and provides feedback on user-submitted code using Google Gemini 2.0. This project integrates AI with modern web development to deliver smart, contextual code suggestions in real time.
 
-## Features:
-- Input code and get a detailed review.
-- Frontend built using React, and backend powered by Node.js and Express.
+[🚀 Live Demo](https://lnkd.in/gSh9pzYJ) · [📦 GitHub Repo](https://lnkd.in/giuQP8CR)
 
-## Live Demo:
-You can access the live demo here: [Frontend Link](https://ai-code-reviewer-git-master-zeeyawnls-projects.vercel.app)
+---
 
-## Backend:
-The backend is running on Render, and you can see it here: [Backend Link](https://ai-code-reviewer-1-cx72.onrender.com)
+## 🔧 What It Does
 
-   
+- Allows users to paste code and receive detailed, AI-generated reviews and suggestions
+- Analyzes code for improvements, best practices, and optimization opportunities
+- Supports multiple programming languages
+- Uses Google Gemini 2.0 for NLP-based code understanding and explanation
+
+---
+
+## 🌐 Tech Stack
+
+| Frontend                     | Backend                      | AI & Deployment             |
+|-----------------------------|------------------------------|-----------------------------|
+| React.js, Vite, PrismJS     | Node.js, Express.js          | Google Gemini 2.0 API       |
+| Tailwind CSS (optional)     | RESTful API integration      | Vercel (Frontend), Render (Backend) |
+
+---
+
+## 💡 Key Features
+
+
+- Real-time code evaluation using Google Gemini 2.0
+- Clean, responsive UI with syntax highlighting via PrismJS
+- Full-stack architecture with secure, scalable API calls
+- Deployed using modern CI/CD tools (Vercel + Render)
+
+---
+
+## 🧠 Learning Highlights
+
+- Integrated AI into a full-stack project via API-based architecture
+- Improved understanding of prompt engineering for NLP tasks
+- Gained practical experience in deploying to cloud platforms
+- Learned to manage frontend/backend separation with real-time interactions
+
+---
+
+## 📁 Project Structure
+
+AI-Code-Reviewer/
+├── client/ # React frontend
+│ ├── public/
+│ └── src/
+│ ├── components/
+│ └── App.jsx
+├── server/ # Express backend
+│ └── routes/
+│ └── review.js
+├── .env # API key (not committed)
+├── package.json
+└── README.md
+
+
+---
+
+## 🚀 Live Deployment
+
+- **Frontend (React)**: [Vercel](https://vercel.com)
+- **Backend (Node/Express)**: [Render](https://render.com)
+
+> The project uses environment variables to store the Gemini API key and prevent exposure.
+
+---
+
+## 📸 Preview
+
+![screenshot]([https://your-image-link.com/preview.png](https://media.licdn.com/dms/image/v2/D5622AQHLPxsfhZIRJg/feedshare-shrink_2048_1536/B56Za0oDBDGkAs-/0/1746787119721?e=1751500800&v=beta&t=H6_SZ2nAkUOmfej4sv13CdH88sY-v89wsK76vkzkIV0))
+
+*(Replace with an actual screenshot of your app for better visibility)*
+
+---
+
+## 🛠️ Future Improvements
+
+- Support for more programming languages
+- In-browser code editor integration (e.g., Monaco Editor)
+- History tab to track previous code reviews
+- Dark/light theme toggle
+
+
+
+## 🙌 Creator
+
+Made with 💻 by **Ziya Ahemad Jagirdar**  
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/ziya-jagirdar/) or explore more on [GitHub](https://github.com/zeeyawnl)
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes. Open-sourced under the MIT License.
+
+
