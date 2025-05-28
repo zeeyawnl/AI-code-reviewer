@@ -43,21 +43,6 @@ An intelligent full-stack application that reviews and provides feedback on user
 
 ---
 
-## 📁 Project Structure
-
-AI-Code-Reviewer/
-├── client/ # React frontend
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ └── App.jsx
-├── server/ # Express backend
-│ └── routes/
-│ └── review.js
-├── .env # API key (not committed)
-├── package.json
-└── README.md
-
 
 ---
 
