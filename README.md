@@ -73,7 +73,7 @@ AI-Code-Reviewer/
 ## 📸 Preview
 
 ![screenshot](![1746787119962](https://github.com/user-attachments/assets/7c1b8c9c-2de7-4f96-a699-ab06400a4fb9)
-)
+
 
 *(Replace with an actual screenshot of your app for better visibility)*
 
