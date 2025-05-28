@@ -72,7 +72,8 @@ AI-Code-Reviewer/
 
 ## 📸 Preview
 
-![screenshot]([https://your-image-link.com/preview.png](https://media.licdn.com/dms/image/v2/D5622AQHLPxsfhZIRJg/feedshare-shrink_2048_1536/B56Za0oDBDGkAs-/0/1746787119721?e=1751500800&v=beta&t=H6_SZ2nAkUOmfej4sv13CdH88sY-v89wsK76vkzkIV0))
+![screenshot](![1746787119962](https://github.com/user-attachments/assets/7c1b8c9c-2de7-4f96-a699-ab06400a4fb9)
+)
 
 *(Replace with an actual screenshot of your app for better visibility)*
 
